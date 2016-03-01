@@ -1,6 +1,6 @@
 {
   "name": "crx-repo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Private Repository for Chrome Extensions",
   "author": "Nick Collier <nicholas.james.collier@gmail.com>",
   "repository": "EnISeeK/crx-repo",
