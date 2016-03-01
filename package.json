@@ -1,9 +1,13 @@
 {
   "name": "crx-repo",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Private Repository for Chrome Extensions",
   "author": "Nick Collier <nicholas.james.collier@gmail.com>",
+  "repository": "EnISeeK/crx-repo",
   "license": "MIT",
+  "bin": {
+    "crx-repo": "bin/crx-repo"
+  },
   "dependencies": {
     "async": "~1.5.2",
     "crx": "^3.0.3",
