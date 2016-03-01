@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+var hostname = require("os").hostname();
+var argv = require('yargs')
+    .alias('a', 'address')
+    .alias('p', 'port')
+    .default('a', hostname)
+    .default('p', 5001)
+    .help('h')
+    .alias('h', 'help')
+    .argv;
+
+var CrxRepo = require('../lib/crx-repo');
+var server = new CrxRepo(argv.address, argv.port);
+server.start();

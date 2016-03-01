@@ -1,0 +1,23 @@
+{
+  "name": "crx-repo",
+  "version": "0.0.0",
+  "description": "Private Repository for Chrome Extensions",
+  "author": "Nick Collier <nicholas.james.collier@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "~1.5.2",
+    "crx": "^3.0.3",
+    "express": "~4.13.4",
+    "multer": "~1.1.0",
+    "node-rsa": "~0.3.2",
+    "path": "~0.12.7",
+    "rimraf": "~2.5.1",
+    "semver": "~5.1.0",
+    "serve-index": "~1.7.3",
+    "streamifier": "~0.1.1",
+    "temp": "~0.8.3",
+    "unzip": "~0.1.11",
+    "xmlbuilder": "~4.2.1",
+    "yargs": "^4.2.0"
+  }
+}
